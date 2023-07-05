@@ -16,7 +16,7 @@ platforms, see [the general docs](../README.md#readme).
 
 ```sh
 choco source add -n=shaka-lab -s=https://shaka-lab-chocolatey-dot-shaka-player-demo.appspot.com/
-choco install shaka-lab-node
+choco install -y shaka-lab-node
 ```
 
 ## Updates
