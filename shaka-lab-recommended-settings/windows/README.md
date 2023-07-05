@@ -13,7 +13,7 @@ This is the Windows package.
 
 ```sh
 choco source add -n=shaka-lab -s=https://shaka-lab-chocolatey-dot-shaka-player-demo.appspot.com/
-choco install shaka-lab-recommended-settings
+choco install -y shaka-lab-recommended-settings
 ```
 
 ## Updates

@@ -60,3 +60,11 @@ workflow will not work.
  - [Linux distribution](distribution/linux/README.md#readme)
  - [Windows distribution](distribution/windows/README.md#readme)
  - [macOS distribution](distribution/macos/README.md#readme)
+
+
+## Consolidated Build Instructions
+
+For consolidated instructions for our own lab build at Google, from OS
+installation to a complete lab, see
+[Shaka Lab Consolidated Build Instructions](consolidated-build/README.md#readme).
+The details of your lab may vary.
