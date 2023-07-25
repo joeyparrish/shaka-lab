@@ -58,6 +58,16 @@ cask "shaka-lab-gateway-client" do
       system_command "/usr/sbin/dsconfigad", args: [
         "-domain", "lab.shaka",
         "-u", "Administrator",
+        # Allow known accounts to be used while disconnected from the gateway.
+        "-mobile", "enable",
+        "-mobileconfirm", "disable",
+        # Always use a local home directory.
+        "-localhome", "enable",
+        "-useuncpath", "disable",
+        # Set the default shell to bash.
+        "-shell", "/bin/bash",
+        # Allow members of the labadmins group to become admins on this device.
+        "-groups", "labadmins",
       ], sudo: true
 
       puts "Successfully joined the Shaka Lab domain!"
