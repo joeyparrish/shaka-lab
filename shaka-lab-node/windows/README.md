@@ -16,13 +16,22 @@ platforms, see [the general docs](../README.md#readme).
 
 ```sh
 choco source add -n=shaka-lab -s=https://shaka-lab-chocolatey-dot-shaka-player-demo.appspot.com/
-choco install shaka-lab-node
+choco install -y shaka-lab-node
 ```
 
 ## Updates
 
 ```sh
 choco upgrade -y shaka-lab-node
+```
+
+## Running an Xbox One node
+
+To run a Selenium node for Xbox One, you must also install Visual Studio.
+If you don't have it, you can install it through chocolatey with:
+
+```sh
+choco install -y visualstudio2022community
 ```
 
 ## Configuration
